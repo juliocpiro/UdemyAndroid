@@ -54,7 +54,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         }
     }
 
-    private interface OnItemClickListener{
+    public interface OnItemClickListener{
         public void OnItemClick(String name, int position);
     }
 }
