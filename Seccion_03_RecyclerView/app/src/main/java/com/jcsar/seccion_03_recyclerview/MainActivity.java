@@ -44,8 +44,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //creando menu
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
