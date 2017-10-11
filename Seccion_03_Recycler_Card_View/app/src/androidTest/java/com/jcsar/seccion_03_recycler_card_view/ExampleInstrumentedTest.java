@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.jcsar.seccion_03_recyclerview", appContext.getPackageName());
+        assertEquals("com.jcsar.seccion_03_recycler_card_view", appContext.getPackageName());
     }
 }
