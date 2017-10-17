@@ -4,8 +4,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.jcsar.seccion_03_lab.R;
+import com.jcsar.seccion_03_lab.adapters.FruitAdapter;
 import com.jcsar.seccion_03_lab.models.Fruit;
 
 import java.util.ArrayList;
@@ -15,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private RecyclerView.LayoutManager layoutManager;
-    //private FruitAdapter adapter;
+    private FruitAdapter adapter;
 
     private List<Fruit> fruits;
     private int counter = 0;
@@ -29,6 +32,38 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.reciclerView);
         layoutManager = new LinearLayoutManager(this);
+
+        adapter = new FruitAdapter(fruits, R.layout.recycler_view_fruit_item, this, new FruitAdapter.OnItemClickListener() {
+            @Override
+            public void OnItemClick(Fruit fruit, int position) {
+                fruit.addQuantity(1);
+                adapter.notifyItemChanged(position);
+            }
+        });
+
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setAdapter(adapter);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.options_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.add_fruit :
+                int position = fruits.size();
+                fruits.add(position,new Fruit("Plum " + (++counter),"Fruit added by the user", R.drawable.plum_bg, R.mipmap.ic_plum, 0));
+                adapter.notifyItemInserted(position);
+                layoutManager.scrollToPosition(position);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     private List<Fruit> getAllFruits(){
