@@ -1,24 +1,36 @@
 package com.jcsar.seccion_04_realm.activities;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.jcsar.seccion_04_realm.R;
+import com.jcsar.seccion_04_realm.adapters.BoardAdapter;
 import com.jcsar.seccion_04_realm.models.Board;
 
 import io.realm.Realm;
+import io.realm.RealmChangeListener;
+import io.realm.RealmList;
+import io.realm.RealmResults;
 
-public class BoardActivity extends AppCompatActivity {
+public class BoardActivity extends AppCompatActivity implements RealmChangeListener<RealmResults<Board>>, AdapterView.OnItemClickListener{
 
     private Realm realm;
     private FloatingActionButton fab;
+
+    private ListView listView;
+    private BoardAdapter adapter;
+
+    private RealmResults<Board> boards;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +39,14 @@ public class BoardActivity extends AppCompatActivity {
 
         //db realm
         realm = Realm.getDefaultInstance();
+        boards = realm.where(Board.class).findAll();
+
+        //listener
+        boards.addChangeListener(this);
+
+        adapter = new BoardAdapter(this, boards,R.layout.list_view_board_item);
+        listView = (ListView) findViewById(R.id.listViewBoard);
+        listView.setAdapter(adapter);
 
         fab = (FloatingActionButton) findViewById(R.id.fabAddBoard);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -71,4 +91,15 @@ public class BoardActivity extends AppCompatActivity {
         dialog.show();
     }
 
+    @Override
+    public void onChange(RealmResults<Board> element) {
+        adapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Intent intent = new Intent(BoardActivity.this, NoteActivity.class);
+        intent.putExtra("id",boards.get(position).getId());
+        startActivity(intent);
+    }
 }
