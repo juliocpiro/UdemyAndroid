@@ -11,17 +11,8 @@
         android:name="com.jcsar.seccion_06_fragments.Fragments.DataFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5"
+        android:layout_weight="1"
         tools:layout="@layout/fragment_data"
-        />
-
-    <fragment
-        android:id="@+id/detailsFragment"
-        android:name="com.jcsar.seccion_06_fragments.Fragments.DetailsFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.5"
-        tools:layout="@layout/fragment_details"
         />
 
 </LinearLayout>
