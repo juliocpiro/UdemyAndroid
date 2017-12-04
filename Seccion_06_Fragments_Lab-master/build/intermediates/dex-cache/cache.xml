@@ -3,111 +3,111 @@
 
     <item
         is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jar="C:\Users\JCSAR\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_c8646046468cac17c6600ede5073499446062cf6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_5890223c758696091bf9b1ce2f5bfca10074bc8c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_3cdf93c0057f67fea69f36588d5b0bcbe897eb5f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_44a5def36236d9761417680bd191ffcd74725492/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_ea87d1bebc2929e38df5b9ff7ac9447eaefae09d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_296a909c982c3e23a35479a4978a9763c612a147/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_5149aca45f1f34e747409b69f9f6991c4560d2b0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="657c02bd609b48c652aa139b184c725015b2e618">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c040e90eab6a3103b31fb195314b44ddfb8a9e7a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_0b2a8625d6d6d30a0ce483832842cb64034d0cb0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f5531a04322943864c68729d94f967acc62604bb">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9e59491dff87eb41f2a34528c763d9482b6e472e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_3b779dc9de0b2359741748274e01189e9704e12e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alejandroloragomez/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
+        revision="26.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/Users/alejandroloragomez/AndroidStudioProjects/AndroidCurso/Seccion_06_Fragments_Lab/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_008218ed0e25d746561a0730a10803fbedcf8ca9/classes.dex" />
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_6582be92a4752ea62d08e966504c1f9758c257d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\.android\build-cache\3373c14df3202e6765ea699ec747d5aee6f475d7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f1e6b5aeff5acc67745f69f015b598dc70ec0a7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\.android\build-cache\319fb7d59e7327fbea1e0f7da20215a5655b04bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5738aeca522b9081f79fe53bb3922b3fa979a3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\.android\build-cache\e3c42cdbeea589bfdd424ab83bd7b45cc3f76322\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_305ea8302507603d0899cf3c61c0a20eb235daba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_82b11bad2044a8ab4612931055f9842383ab6ecd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\.android\build-cache\1db0c7b2f4f2ca5b2086fc1806b59e49ac6e7df8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84fc3cf8c146debcba6e9b18cf8101733796f26c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\.android\build-cache\3b80018728041ea1abb1daaf90da05e8328365b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ffb57f42059479d15e7bdb85369409a1fd6c842a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\.android\build-cache\acda4bb1dd1980f8a49a2d0de8e0d0c8b95e72a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80925ffb048ea39c08ddae82701b9cf1ac1ec016\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\.android\build-cache\923f737bc1ae31bed922d20d1aa93c77aa4a099b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4bd109511336d0cd51bdf1f58ac0b820effaa0aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\.android\build-cache\e3fde0a4357ee9a48b358da62f88e16887ce911e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c419a54990d5fe16a90c4a0124040dc516877eb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\.android\build-cache\6b1b92d4cd1c7fc4f36077734f5545f4f494a3b8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b78a45adddfbb9537dc319b8923739cb9d6d571\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="135c1e27b53ecce04096ad5b209f8e749c9582d4">
+        <dex dex="C:\Users\JCSAR\Documents\GitHub\UdemyAndroid\Seccion_06_Fragments_Lab-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ee7aabe7254612e6ed35f8833a94be41f8a369f9\classes.dex" />
     </item>
 
 </items>
